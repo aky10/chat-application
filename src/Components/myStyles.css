@@ -64,8 +64,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
 
-  background-color: gray;
+  background-color: burlywood;
 
   font-size: 2rem;
   font-weight: bolder;
@@ -84,4 +85,87 @@
   justify-self: flex-end;
   font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.54);
+}
+.chatAreaContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+}
+.chatArea-Header {
+  display: grid;
+  grid-template-columns: 32px auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 10px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+}
+.messages-container {
+  background-color: white;
+  flex: 1;
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+.text-input-area {
+  background-color: white;
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.messages-container {
+  flex: 1;
+  background-color: white;
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.other-message-container {
+  display: flex;
+}
+.other-text-content {
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+  border-radius: 20px;
+  padding: 10px;
+}
+.other-timeStamp {
+  justify-self: flex-end;
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.self-message-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.messageBox {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(82, 180, 82);
+  border-radius: 20px;
+  padding: 10px;
+}
+.self-timeStamp {
+  justify-self: flex-end;
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.54);
+}
+.welcome-logo {
+  height: 20vw;
+}
+.welcome-container {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: rgpa(0, 0, 0, 0.54);
+  border-radius: 20px;
 }

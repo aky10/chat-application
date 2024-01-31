@@ -32,8 +32,8 @@ const Sidebar = () => {
           <FaUser />
         </div>
         <div className="sd-right-header">
-          <MdGroupAdd />
           <HiUserAdd />
+          {/* <MdGroupAdd /> */}
           <IoIosAddCircle />
         </div>
       </div>
