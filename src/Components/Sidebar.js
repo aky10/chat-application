@@ -30,12 +30,9 @@ const Sidebar = () => {
   return (
     <div className="sidebar-container">
       <div className="sb-header">
-        <div>
+        <div className="other-icons">
           <FaUser />
-        </div>
-        <div className="sd-right-header">
           <HiUserAdd />
-          {/* <MdGroupAdd /> */}
           <IoIosAddCircle />
         </div>
       </div>

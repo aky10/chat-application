@@ -6,7 +6,7 @@ const Welcome = () => {
       <img
         src="https://img.freepik.com/premium-vector/chat-app-logo-design-template-can-be-used-icon-chat-application-logo_605910-1724.jpg"
         alt="logo"
-        className="welcome"
+        className="welcome-logo"
       ></img>
       <p>View and text directly to people present int the chat room</p>
     </div>
