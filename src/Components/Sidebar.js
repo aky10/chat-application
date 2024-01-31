@@ -6,6 +6,7 @@ import { HiUserAdd } from "react-icons/hi";
 import { IoIosAddCircle } from "react-icons/io";
 import { IoMdSearch } from "react-icons/io";
 import SbChats from "./SbChats";
+import { useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
   const [conversations, setConversation] = useState([
@@ -25,6 +26,7 @@ const Sidebar = () => {
       timeStamp: "today",
     },
   ]);
+
   return (
     <div className="sidebar-container">
       <div className="sb-header">
