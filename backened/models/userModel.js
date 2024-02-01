@@ -20,5 +20,6 @@ const userModel = mongoose.Schema(
   }
 );
 
-const User = mongoose.Model("User", userModel);
+const User = mongoose.model("User", userModel);
 module.exports = User;
+// sKoFACMcMSNesriU
